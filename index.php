@@ -24,6 +24,7 @@ $games = [
     ],
 ];
 
+// Stampa il calendario
 for ($i = 0; $i < count($games); $i++) {
     $game = $games[$i];
     $match = $game["hostTeam"] . " - " . $game["guestTeam"] . " | " . $game["hostPoints"] . "-" . $game["guestPoints"];
